@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Result Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <center>
+    <!-- Input Marks Table -->
+    <table class="input-table">
+      <caption><b>Input Marks</b></caption>
+      <tr>
+        <th rowspan="2">Name</th>
+        <th colspan="4">Score</th>
+      </tr>
+      <tr>
+        <th>Hindi</th>
+        <th>English</th>
+        <th>Math</th>
+        <th>C Programming</th>
+      </tr>
+      <tr>
+        <td><input type="text" id="aname"></td>
+        <td><input type="text" id="am"></td>
+        <td><input type="text" id="aj"></td>
+        <td><input type="text" id="ad"></td>
+        <td><input type="text" id="an"></td>
+      </tr>
+      <tr>
+        <th colspan="5" height="30">
+          <input type="submit" value="Add To Table" onclick="Sub()">
+        </th>
+      </tr>    
+    </table>
+
+    <br>
+
+    <!-- Student Data Table -->
+    <table class="output-table" id="TableScore">
+      <caption><b>Student Data</b></caption>
+      <tr>
+        <th width="180">Name</th>
+        <th>Total</th>
+        <th>Average</th>
+        <th>Pass Or Fail</th>
+      </tr>
+    </table>
+  </center>
+
+  <script src="script.js"></script>
+</body>
+</html>

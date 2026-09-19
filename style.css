@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+}
+
+caption {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 10px;
+  color: #333;
+}
+
+th {
+  background: #4facfe;
+  color: white;
+  padding: 12px;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+input[type="text"], input[type="submit"] {
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input[type="text"] {
+  background: #f0f0f0;
+  width: 90%;
+}
+
+input[type="submit"] {
+  background: linear-gradient(45deg, #43e97b, #38f9d7);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+input[type="submit"]:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #38f9d7, #43e97b);
+}
+
+.output-table th {
+  background: #ff6a00;
+}
+
+.output-table td {
+  font-weight: bold;
+}
+
